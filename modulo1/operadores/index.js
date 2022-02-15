@@ -1,0 +1,208 @@
+                //EXERCiCIOs DE INTERPRETAÇÃO
+
+/*
+//QUESTÃO1
+
+const bool1 = true
+const bool2 = false
+const bool3 = !bool2
+
+let resultado = bool1 && bool2
+console.log("a. ", resultado)
+
+resultado = bool1 && bool2 && bool3 
+console.log("b. ", resultado) 
+
+resultado = !resultado && (bool1 || bool2) 
+console.log("c. ", resultado)
+
+console.log("d. ", typeof resultado)
+
+//RESPOSTAS ABAIXO:
+
+a.FALSE
+b.FALSE
+c.TRUE
+d.BOOLEAN
+*/
+
+/*
+//QUESTÃO2
+
+let primeiroNumero = prompt("Digite um numero!")
+let segundoNumero = prompt("Digite outro numero!")
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma)
+
+//RESPOSTA ABAIXO:
+
+Pelo sinal de (+) além de somar, também o sinal é  concatenação, acaba que ele faz a junção dos número
+ex: 1010 ao invés de somar os dois número dando resultado de 20.
+
+*/
+
+/*
+//QUESTÃO3
+
+Para o exercício anterior, sugira ao seu colega uma solução para que o valor impresso no console seja, de fato,
+ a soma dos dois números.
+
+//RESPOSTA ABAIXO:
+
+let primeiroNumero = Number(prompt("Digite um numero!"))
+let segundoNumero = Number(prompt("Digite outro numero!"))
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma)
+
+colocando o Number antes ele identifica que não é uma concatenação e sim uma soma entre números
+
+*/
+
+/*
+//EXERCÍCIOS DE ESCRITA DE CÓDIGO
+
+//QUESTÃO1 (Deu certo)
+
+let idade = prompt("Qual sua idade?")
+let idadeMelhorAmigo = prompt("Qual a idade do seu/sua melhor (a) amigo(a)?")
+let idadeMax = idade >= idadeMelhorAmigo
+let diferencaIdade = idade % idadeMelhorAmigo
+
+ console.log("Sua idade é maior do que a do seu melhor amigo?", idadeMax)
+ console.log("A diferença entre as duas idade é:",diferencaIdade)
+
+*/
+
+//QUESTÃO2
+
+/*
+let numeroPar = prompt("Digite um número par:")
+let restoNumeroPar = numeroPar % 2
+console.log(restoNumeroPar)
+
+// d.Todos os números com resto 2 dão zero.
+//e. Se o usúario escrever um número ímpar ele retorna um valor diferente de zero.
+
+*/
+
+
+
+//QUESTÃO3
+
+/*
+let idade = prompt("Quantos anos você tem?")
+let idadeMeses = idade * 12
+let idadeDias = idadeMeses * 365
+let idadeHoras = idadeDias * 24
+
+console.log("Sua idade é:",idade)
+console.log("Você tem:", idadeMeses,"meses de vida")
+console.log("Com:",idadeDias,"dias de existência")
+console.log("Parabéns você tem cerca de:",idadeHoras,"horas de lindeza na terra")
+
+*/
+
+/*
+//QUESTÃO3
+
+let primeiroNumero = Number(prompt("Digite um número:"))
+let segundoNumero = Number(prompt("Digite outro número:"))
+let maxNumero = primeiroNumero >= segundoNumero
+let numeroIgual = primeiroNumero == segundoNumero
+let primeiroNumeroDivisivelPeloSegundo = (primeiroNumero % segundoNumero) === 0
+let segundoNumeroDivisivelPeloPrimeiro= (segundoNumero % primeiroNumero) === 0
+
+console.log("O primeiro numero é maior que segundo?", maxNumero)
+console.log("O primeiro numero é igual ao segundo? ", numeroIgual)
+console.log("O primeiro numero é divisível pelo segundo?", primeiroNumeroDivisivelPeloSegundo)
+console.log("O primeiro numero é divisível pelo segundo?", segundoNumeroDivisivelPeloPrimeiro)
+
+*/
+//DESAFIO
+/*
+let grausFahren = Number(prompt("Digite um número em Fahrenheit para transformá-lo em Kelvin"))
+let grausCelsius = Number(prompt("Digite um número em Celsius para transformá-lo em Fahrenheit"))
+let celsiusParaFahrenKelvin = Number(prompt("Digite um valor em graus para descobrir o valor em Fahrenheit e Kelvin"))
+
+
+let calcFahrenParaKelvin = (grausFahren -32) *(5/9) + 273.15
+let calcCelsiusParaFahren = (grausCelsius*(9/5)) + 32
+let calcCelsiusParaFahrenKelvin = (celsiusParaFahrenKelvin*(9/5)) + 32
+let calcCelsiusParaKelvin = celsiusParaFahrenKelvin + 273.15
+
+console.log("Seu valor em Fahrenheit para kelvin é de:",calcFahrenParaKelvin,"K")
+console.log("Seu valor em Celsius para Fahrenheit é de:",calcCelsiusParaFahren,"°F")
+console.log("Seu valor em Celsius para Fahrenheit é de:",calcCelsiusParaFahrenKelvin,"°F, e seu valor em Celsius para kelvin é de:", calcCelsiusParaKelvin,"K")
+
+*/
+
+/*
+let valorConsumidoResidencia = Number(prompt("Qual foi o valor consumido em Quilowatt na residência?"))
+let calcConsumo = valorConsumidoResidencia * 0.5
+let calDesconto = (calcConsumo * 15) / 100
+let total = calcConsumo - calDesconto
+
+console.log("A quantidade consumida de Quilowatts, foi de:", valorConsumidoResidencia)
+console.log("Gerando um valor a ser pago de:", calcConsumo,"reais.")
+console.log("seu desconto é de:",calDesconto)
+console.log("Total a pagar:",total)
+
+*/
+
+/*
+let valorLibra = Number(prompt("Digite o valor em Libras(ls)"))
+let calcLibraParaKg = valorLibra / 2.205
+
+console.log(valorLibra,"(lb)", "equivalem a:", calcLibraParaKg,"(kg)")
+
+*/
+
+/*
+let valorOnca = Number(prompt("Digite o valor em Onça(oz):"))
+let calcOncaParaKg = valorOnca / 3.527
+
+console.log(valorOnca,"(oz)", "equivalem a:", calcOncaParaKg,"(kg)")
+*/
+
+/*
+let valorMilha= Number(prompt("Digite o valor em Milhas(mi):"))
+let calcMilhaParaMetro = valorMilha * 1609
+
+console.log(valorMilha,"(mi)", "equivalem a:", calcMilhaParaMetro,"(m)")
+*/
+
+/*
+let valorPes = Number(prompt("Digite o valor em Pés(ft):"))
+let calcPesParaMetro = valorPes / 3.281
+
+console.log(valorPes,"(ft)", "equivalem a:", calcPesParaMetro,"(m)")
+*/
+
+/*
+let valorGalao = Number(prompt("Digite o valor em Galão(gal):"))
+let calcGalaoParaLitro = valorGalao * 3.785
+
+console.log(valorGalao,"(gal)", "equivalem a:", calcGalaoParaLitro,"l")
+*/
+
+/*
+let valorXicara = Number(prompt("Digite o valor em Xícara(xic):"))
+let calcXicaraParaLitro = valorXicara / 3.52
+
+console.log(valorXicara,"(xic)", "equivalem a:", calcXicaraParaLitro,"l")
+*/
+
+let valorOnca = Number(prompt("Digite o valor em Onça(oz):"))
+let calcOncaParaKg = valorOnca / 3.527
+let valorUnidade = prompt("Qual valor da unidade de medida?")
+
+console.log(valorOnca,"oz", "equivalem a:", calcOncaParaKg,valorUnidade)
+
+
+
+
+
