@@ -1,0 +1,74 @@
+                // Respondendo as questões
+
+/*
+1.console.log(10,5);
+2.console.log (10,10,10);
+3.horasTrabalhadasPorDia;
+  salarioPorDia;
+*/
+
+//-------------------------------------------------------------------------
+                 //Variáveis Undefined
+
+/*
+let respostaNome
+let respostaIdade
+
+console.log(typeof respostaNome)
+console.log Number(typeof respostaIdade)
+*/
+//foi impresso porque uma variável foi declarada mas não foi definido um valor
+
+//--------------------------------------------------------------------------
+ 
+/*
+const perguntaNome = prompt("Qual seu nome?")
+const perguntaIdade = prompt(Number"Qual sua idade?")
+
+//console.log(typeof perguntaNome,typeof perguntaIdade)
+console.log("Olá seu nome é:",perguntaNome,"e sua idade é:",perguntaIdade, "anos.")
+*/
+// é necessário acrescentar o number na variável perguntaIdade, pois ela retorna string.
+//--------------------------------------------------------------------------
+
+/*
+let gostaDeCafe = prompt("Você gosta de café?")
+let assisteAnime = prompt("Você assiste anime?")
+let gostaDeRock = prompt("Você gosta de Rock?")
+
+console.log("Suas respostas são:Eu gosto de café?:",gostaDeCafe)
+console.log("Suas respostas são:Eu assisto anime?:",assisteAnime)
+console.log("Suas respostas são:Eu gosto de Rock?:",gostaDeRock)
+*/
+
+//--------------------------------------------------------------------------
+                //Questão 3
+
+/*
+ let a = 10
+ let b = 25
+ let c = a
+ a = b
+ b = c
+ console.log(a,b)
+*/
+
+//--------------------------------------------------------------------------
+
+                //Bônus Soma
+       
+/*
+let primeiroNumero = Number(prompt("Digite um número"))
+let segundoNumero = Number(prompt("Digite outro número"))
+let resultadoSoma = primeiroNumero + segundoNumero 
+console.log(resultadoSoma)
+*/
+
+                //Bônus Multiplicação
+
+/*
+let primeiroNumero = Number(prompt("Digite um número"))
+let segundoNumero = Number(prompt("Digite outro número"))
+let resultadoMultiplicacao = primeiroNumero * segundoNumero 
+console.log(resultadoMultiplicacao)
+/*
