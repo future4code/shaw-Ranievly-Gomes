@@ -1,0 +1,100 @@
+             //EXERCÍCIOS SOBRE ARRAYS
+
+/*
+let array
+console.log('a. ', array)
+
+Resposta = undefined pois não foi definido um valor
+
+//--------------------------------------------------
+
+array = null
+console.log('b. ', array)
+
+Resposta null = porque foi declarado como null
+
+//-------------------------------------------------
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log('c. ', array.length)
+
+Resposta = 11, pois mostra a contagem dos elementos dentro do arrays, totalizando em 11
+
+//--------------------------------------------------
+
+let i = 0
+console.log('d. ', array[i])
+
+Resposta = mostra o primeiro array no caso do exemplo seria o 3
+
+
+//-------------------------------------------------
+
+array[i+1] = 19
+console.log('e. ', array)
+
+Resposta = [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]  irá inserir o 19 no indice 2
+
+//--------------------------------------------------
+
+const valor = array[i+6]
+console.log('f. ', valor)
+
+Resposta = irá nomar o primeiro indice que é 3 com 6 que = 9
+
+*/
+//-------------------------------------------------
+/*
+
+const frase = prompt("Subi num ônibus em Marrocos?")
+
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+
+Resposta = "SUBI NUM ÔNiBUS EM MIRROCOS"  28
+
+*/
+//-------------------------------------------------
+/*
+let nomeUsuario = prompt("Qual seu nome?")
+let emailUsuario = prompt("Qual seu e-mail?")
+let confirmacaoUsuario= `O e-mail ${emailUsuario} foi cadastrado com sucesso. Seja bem-vinda(o), ${nomeUsuario}!`
+
+console.log(confirmacaoUsuario)
+*/
+
+//-------------------------------------------------
+
+//let comidasPreferidas = ["pizza", "sorvete","mousse","peixe","frutas"] 
+
+/*console.log(comidasPreferidas)
+
+let fraseRespostaComida =`Essas são as minhas comidas preferidas:`
+console.log(fraseRespostaComida)
+console.log(comidasPreferidas[0])
+console.log(comidasPreferidas[1])
+console.log(comidasPreferidas[2])
+console.log(comidasPreferidas[3])
+console.log(comidasPreferidas[4])
+*/
+
+/*
+let comidaUsuario = prompt("Qual sua comida preferida?")
+let comidasPreferidas = ["pizza", "sorvete","mousse","peixe","frutas"] 
+
+comidasPreferidas[2] = comidaUsuario
+console.log(comidasPreferidas)
+*/
+
+//--------------------------------------------
+/*let listaDeTarefas = []
+listaDeTarefas =[prompt("Qual a sua primeira tarefa do dia?"), prompt("Qual a sua segunda tarefa do dia?"),prompt("Qual a sua terceira tarefa do dia?")]
+
+console.log(listaDeTarefas)
+
+let perguntaIndice= prompt("Qual indice da tarefa que já foi realizada?")
+
+listaDeTarefas.splice(perguntaIndice,1)
+*/
+
+//---------------------------------------------
+
