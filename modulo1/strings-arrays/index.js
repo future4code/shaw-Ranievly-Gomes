@@ -1,31 +1,31 @@
                 //EXERCÍCIOS SOBRE ARRAYS
 
-/*
+
 let array
 console.log('a. ', array)
 
-Resposta = undefined pois não foi definido um valor
+//Resposta = undefined pois não foi definido um valor
 
 //--------------------------------------------------
 
 array = null
 console.log('b. ', array)
 
-Resposta null = porque foi declarado como null
+//Resposta null = porque foi declarado como null
 
 //-------------------------------------------------
 
 array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 console.log('c. ', array.length)
 
-Resposta = 11, pois mostra a contagem dos elementos dentro do arrays, totalizando em 11
+//Resposta = 11, pois mostra a contagem dos elementos dentro do arrays, totalizando em 11
 
 //--------------------------------------------------
 
 let i = 0
 console.log('d. ', array[i])
 
-Resposta = mostra o primeiro array no caso do exemplo seria o 3
+//Resposta = mostra o primeiro array no caso do exemplo seria o 3
 
 
 //-------------------------------------------------
@@ -33,16 +33,16 @@ Resposta = mostra o primeiro array no caso do exemplo seria o 3
 array[i+1] = 19
 console.log('e. ', array)
 
-Resposta = [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]  irá inserir o 19 no indice 2
+//Resposta = [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]  irá inserir o 19 no indice 2
 
 //--------------------------------------------------
-
+/*
 const valor = array[i+6]
 console.log('f. ', valor)
 
-Resposta = irá nomar o primeiro indice que é 3 com 6 que = 9
+///Resposta = irá nomar o primeiro indice que é 3 com 6 que = 9
 
-*/
+
 //-------------------------------------------------
 /*
 
