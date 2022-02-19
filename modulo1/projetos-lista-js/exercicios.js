@@ -3,13 +3,13 @@
 // EXERCÍCIO 0A
 function soma(num1, num2) {
   // implemente sua lógica aqui
-  return num1 + num2
+ return num1 + num2
 }
 
 // EXERCÍCIO 0B
 function imprimeMensagem() {
   // implemente sua lógica aqui
-  const mensagem = prompt('Digite uma mensagem!')
+ const mensagem = prompt('Digite uma mensagem!')
 
   console.log(mensagem)
 }
@@ -26,6 +26,7 @@ function calculaAreaRetangulo() {
   console.log(area);
 }
   console.log(calculaAreaRetangulo(area))
+
 // EXERCÍCIO 02
 function imprimeIdade() {
    // implemente sua lógica aqui
