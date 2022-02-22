@@ -149,3 +149,15 @@ dadosFilme()
 
 
 
+function pessoa (nome, genero) {
+    return{
+        let feminino = true
+    
+        if( nome && feminino ===true)
+        console.log(`Bem vinda ${nome}`)
+     
+       else if(nome && genero === false)
+     console.log(`Bem vindo ${nome}`)
+    }
+    
+pessoa()
