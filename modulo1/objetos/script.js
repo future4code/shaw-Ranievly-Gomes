@@ -151,12 +151,12 @@ dadosFilme()
 let pessoa = prompt("Qual seu nome?")
 let genero = prompt("Qual seu genero?")
 
-    function dadosPessoa (nome,genero){
-        if( genero === "feminino")
-        console.log(`Bem vinda ${nome}!`)
+function dadosPessoa (nome,genero){
+   if( genero === "feminino")
+      console.log(`Bem vinda ${nome}!`)
      
-       else if(genero === "masculino")
-     console.log(`Bem vindo ${nome}!`)
-    
+    else (genero === "masculino")
+       console.log(`Bem vindo ${nome}!`)
     }
+
 dadosPessoa(pessoa,genero)
