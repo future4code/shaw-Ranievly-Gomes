@@ -25,7 +25,7 @@
 
 //----------------------------------------------------------------------------------------------------------
 
-//o spread copia o valor mutavel que são arrays, objetos e function, fazendo a copia e não alterando depois
+//o spread copia o valor mutável que são arrays, objetos e function, fazendo a copia e não alterando os originais depois
 
 //-----------------------------------------------------------------------------------------------------------
 
