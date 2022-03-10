@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /** 
   *
   *  ESTILOS GERAIS 
@@ -7,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -31,10 +33,6 @@ img {
 
 div>p:first-child {
     display: inline;
-}
-
-div img {
-
 }
 
 .botao-amarelo {
@@ -122,8 +120,17 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    border: none;
+    border-bottom: 2px solid black;
 }
 
+td button:hover{
+    background-color: rgba(250,223,99,0.5);
+}
+
+td button:active{
+    color: white;
+}
 .container-do-search {
     margin-top: 20px;
     height: 100px;
