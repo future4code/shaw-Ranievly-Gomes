@@ -78,6 +78,7 @@ div img {
     padding: 15px 0px;
 }
 
+
 #container-para-comprar {
     background-color: #e7eb90;
     
@@ -90,6 +91,9 @@ div img {
     
 }
 
+.formatando-li{
+    margin-bottom: 15px;
+}
 
 /**
   *
