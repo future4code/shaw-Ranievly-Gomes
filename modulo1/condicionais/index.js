@@ -3,7 +3,11 @@
 
 //RESPOSTA DA 1:
 
+
+//a: o teste vê se o resultado é identico a 0, (se é par ou ímpar)
+
 //a: o teste vê se o resultado é par ou ímpar
+
 //b: imprime passou no teste para número pares(2,4,6,8...)
 //c: imprime não passou no teste para (número ímpares(3,5,7,9...))
 
@@ -116,6 +120,12 @@ function escolhaFilme(nomeFilme,ingressoFilme){
         (console.log("Escolha outro filme :("))
 
 }
+
+
+let filme = prompt("Qual o filme de hoje?")
+let ingresso = prompt("Qual o valor do ingresso?")
+let lanche = prompt("Qual snack que você quer comprar?")
+
 
 */
 //----------------------------------------------------------------------------------------------------
