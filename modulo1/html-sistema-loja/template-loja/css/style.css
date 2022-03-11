@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Trebuchet Ms",Helvetica, sans-serif;
+    background-color:rgba(0, 0, 0,0.8);
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    font-family: "Trebuchet Ms",Helvetica, sans-serif;             
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+.area-cabecalho{
+	background-color:rgba(0,0,0,0.5);
+	padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .logo{
+    padding:0 200px 0 0;
+}
+
+.roxo{
+    color:rgb(150, 41, 252)
+}
+
+
+.rodape{
+    background: rgb(0, 0, 0,0.5);
+    text-align: center;
+    padding: 10px 5px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto auto;
+    color: aliceblue;
+}
+.rodape img{
+    width: 32px;
+    margin: 10px;
+}
+
+
+.titulo{
+    padding: 10px;
+}
+
+.funcionarios{
+    margin-top: 30px;
+    list-style: none;
+}
+
+li{
+   padding: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 2px;
+}
+
+.tabela{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.add-produto{
+    margin-top: 10px;
+}
+
+.espacamento-label-preco{
+    margin-left: 56px;
+}
+.espacamento-label-foto{
+    margin-left: 65px; 
+}
+.espacamento-label-produto{
+    margin-left: 10px; 
+}
+ 
+input{
+    width: 300px;
+    margin-top: 10px;
+    height: 30px;
+    border-color: rgb(150, 41, 252);
+    font-size: 16px;
+}
+
+button{
+    background-color:rgb(150, 41, 252);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 150px;
+    border-radius: 5px;
+    border-style: none;   
+    cursor: pointer;
+    
+   
+}
+
+button:hover{
+    background-color:rgb(150, 41, 252,0.5);
+}
+
+.tabela-controle-estoque{
+	display:flex;
+	align-items: center;
+	background-image: 20px;
+}
+tr{
+    display: inline-block;
+    margin: auto;
+
+}
+td img{
+    width: 300px;
+    height: 250px;
+      
+}
+.titulo-tabela{
+    font-size: 25px;
+    display: inline-block;
+    color:rgb(150, 41, 252);
+    text-align: center;
+
+   
+}
+
+.tabela-preco{
+    font-size: 20px;  
+}
