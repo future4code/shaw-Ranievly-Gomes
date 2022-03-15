@@ -150,7 +150,16 @@ const avisoAosAtrasados = () => {
 avisoAosAtrasados()
 
 // DESAFIO------------------------------------------------------------------------------------------
-const usuarios = [
+    const cadastroUsuario = () =>{
+    let nome = prompt("Digite seu nome:");
+    let anoNascimento = Number(prompt("Digite seu ano de nascimento:"));
+    let nacionalidade = prompt("Digite sua nacionalidade:")
+    let senha = prompt("Digite sua senha:")
+    let vacina = prompt("qual foi sua vacina?")
+    let imunizacao = prompt("qual foi sua vacina?")
+
+
+   const usuarios = [
     {
         nome: "Artur",
         ano: 2000,
@@ -175,21 +184,77 @@ const usuarios = [
         vacina: "coronavac",
         imunizacao: "incompleta"
     }
-
-]
-
+  ]
+}
 const cadastroDesafio = () => {
     //  Sua lógica aqui
 }
 console.log(cadastroDesafio());
 
 const loginDesafio = () => {
+    
+    const objeto ={
+        nome: nome,
+        ano: ano,
+        nacionalidade: nacionalidade,
+        senha: senha,
+        vacina: vacina,
+        imunizacao: imunizacao,
+    }
+
+    usuarios.push(objeto)
+    console.log(objeto)
+    return usuarios
     //  Sua lógica aqui
 }
+
+let nome = prompt("Digite seu nome:");
+let anoNascimento = Number(prompt("Digite seu ano de nascimento:"));
+let nacionalidade = prompt("Digite sua nacionalidade:")
+let senha = prompt("Digite sua senha:")
+let vacina = prompt("qual foi sua vacina?")
+let imunizacao = prompt("qual foi sua vacina?")
+
 console.log(loginDesafio());
 
 const primeiraDoseDesafio = () => {
-//  Sua lógica aqui
+
+    let senha = prompt("Digite sua senha:")
+    const usuarios = [
+        {
+            nome: "Artur",
+            ano: 2000,
+            nacionalidae: "brasileiro",
+            senha: "123456",
+            vacina: "pfizer",
+            imunizacao: "incompleta"
+        },
+        {
+            nome: "Bárbara",
+            ano: 1984,
+            nacionalidae: "brasileira",
+            senha: "labenu",
+            vacina: "astrazenica",
+            imunizacao: "completa"
+        },
+        {
+            nome: "Carlos",
+            ano: 2000,
+            nacionalidae: "brasileiro",
+            senha: "123456",
+            vacina: "coronavac",
+            imunizacao: "incompleta"
+        }
+    ]
+
+    for(let i = 0; i < usuarios.length; i++){
+        if (usuarios[i].senha == senha){
+            console.log("usuário logado")
+        
+        }else{
+            console.log("senha inválida")
+        }
+     }
 }
 console.log(primeiraDoseDesafio())
 const segundaDoseDesafio = (nomeDoUsuario) => {
