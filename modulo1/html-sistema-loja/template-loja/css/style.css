@@ -46,14 +46,12 @@ body{
     position:absolute;
     bottom: 0;
     width: 100%;
-    margin: auto auto;
-    color: aliceblue;
 }
+
 .rodape img{
     width: 32px;
     margin: 10px;
 }
-
 
 .titulo{
     padding: 10px;
@@ -138,8 +136,7 @@ td img{
     display: inline-block;
     color:rgb(150, 41, 252);
     text-align: center;
-
-   
+      
 }
 
 .tabela-preco{
