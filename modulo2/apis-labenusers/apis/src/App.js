@@ -13,7 +13,7 @@ export default class App extends React.Component {
   //Estado com playlists e texto do input de name
   state = {
     usuario: [],
-    inputName: "",
+    inputName: " ",
     inputEmail: ""
   };
   componentDidMount() {
