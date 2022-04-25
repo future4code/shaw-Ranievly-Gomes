@@ -1,18 +1,11 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import TelaInicial from "./Components/TelaInicial/TelaInicial";
 import TelaMatch from "./Components/TelaMatch/TelaMatch";
+import { Container, Botao } from "./style";
 
 const App = () => {
   const [trocatela, setTrocatela] = useState("");
   const escolherTela = () => {
-    // switch (trocatela) {
-    //   case "Inicial":
-    //     return <TelaInicial/>;
-    //   case "TelaMatch":
-    //     return <TelaMatch />;
-    //   default:
-    //     return <TelaInicial />;
-    //}
     if (trocatela === "Inicial") {
       return <TelaInicial />;
     } else {
@@ -25,11 +18,17 @@ const App = () => {
   };
 
   return (
-    <div>
-      {!trocatela ? <button onClick={() => mudaTela("Inicial")}>Inicial</button>
-      :<button onClick={() => mudaTela()}>TelaMatch</button>}
+    <Container>
+      <Botao>
+      <h1>Astro<span>Match</span></h1>
+        {!trocatela ? (
+          <button onClick={() => mudaTela("Inicial")}>Inicial</button>
+        ) : (
+          <button onClick={() => mudaTela()}>TelaMatch</button>
+        )}
+      </Botao>
       {escolherTela()}
-    </div>
+    </Container>
   );
 };
 
